@@ -14,6 +14,17 @@
 		83508EA41C5E91920086399E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83508EA21C5E91920086399E /* LaunchScreen.storyboard */; };
 		83508EAF1C5E91920086399E /* TheBetterBoyfriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508EAE1C5E91920086399E /* TheBetterBoyfriendTests.swift */; };
 		83508EBA1C5E91920086399E /* TheBetterBoyfriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508EB91C5E91920086399E /* TheBetterBoyfriendUITests.swift */; };
+		83508ECA1C5E9AEF0086399E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83508EC71C5E9AEE0086399E /* FBSDKCoreKit.framework */; };
+		83508ECB1C5E9AEF0086399E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83508EC81C5E9AEE0086399E /* FBSDKLoginKit.framework */; };
+		83508ECC1C5E9AEF0086399E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83508EC91C5E9AEE0086399E /* FBSDKShareKit.framework */; };
+		83508ECF1C5EA07E0086399E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83508ECE1C5EA07E0086399E /* Bolts.framework */; };
+		83508ED31C5ED4850086399E /* SOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508ED21C5ED4850086399E /* SOViewController.swift */; };
+		83508ED51C5EDE370086399E /* SOPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508ED41C5EDE370086399E /* SOPackage.swift */; };
+		83508ED71C6079960086399E /* FileSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508ED61C6079960086399E /* FileSave.swift */; };
+		83508ED91C607A3F0086399E /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508ED81C607A3F0086399E /* FileHelper.swift */; };
+		83508EDB1C607C9B0086399E /* FileDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508EDA1C607C9B0086399E /* FileDirectory.swift */; };
+		83508EDD1C607FD40086399E /* AddNewNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508EDC1C607FD40086399E /* AddNewNotificationViewController.swift */; };
+		83508EDF1C618ED10086399E /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83508EDE1C618ED10086399E /* ReminderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,18 @@
 		83508EB51C5E91920086399E /* TheBetterBoyfriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBetterBoyfriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83508EB91C5E91920086399E /* TheBetterBoyfriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBetterBoyfriendUITests.swift; sourceTree = "<group>"; };
 		83508EBB1C5E91920086399E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83508EC71C5E9AEE0086399E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		83508EC81C5E9AEE0086399E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		83508EC91C5E9AEE0086399E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		83508ECD1C5E9E8B0086399E /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		83508ECE1C5EA07E0086399E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		83508ED21C5ED4850086399E /* SOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOViewController.swift; sourceTree = "<group>"; };
+		83508ED41C5EDE370086399E /* SOPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOPackage.swift; sourceTree = "<group>"; };
+		83508ED61C6079960086399E /* FileSave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSave.swift; sourceTree = "<group>"; };
+		83508ED81C607A3F0086399E /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileHelper.swift; path = ../FileHelper.swift; sourceTree = "<group>"; };
+		83508EDA1C607C9B0086399E /* FileDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDirectory.swift; sourceTree = "<group>"; };
+		83508EDC1C607FD40086399E /* AddNewNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewNotificationViewController.swift; sourceTree = "<group>"; };
+		83508EDE1C618ED10086399E /* ReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83508ECB1C5E9AEF0086399E /* FBSDKLoginKit.framework in Frameworks */,
+				83508ECA1C5E9AEF0086399E /* FBSDKCoreKit.framework in Frameworks */,
+				83508ECC1C5E9AEF0086399E /* FBSDKShareKit.framework in Frameworks */,
+				83508ECF1C5EA07E0086399E /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +104,7 @@
 		83508E8D1C5E91920086399E = {
 			isa = PBXGroup;
 			children = (
+				83508ECD1C5E9E8B0086399E /* Bridging-Header.h */,
 				83508E981C5E91920086399E /* TheBetterBoyfriend */,
 				83508EAD1C5E91920086399E /* TheBetterBoyfriendTests */,
 				83508EB81C5E91920086399E /* TheBetterBoyfriendUITests */,
@@ -97,12 +125,23 @@
 		83508E981C5E91920086399E /* TheBetterBoyfriend */ = {
 			isa = PBXGroup;
 			children = (
-				83508E991C5E91920086399E /* AppDelegate.swift */,
+				83508EC71C5E9AEE0086399E /* FBSDKCoreKit.framework */,
+				83508EC81C5E9AEE0086399E /* FBSDKLoginKit.framework */,
+				83508EC91C5E9AEE0086399E /* FBSDKShareKit.framework */,
+				83508ECE1C5EA07E0086399E /* Bolts.framework */,
 				83508E9B1C5E91920086399E /* ViewController.swift */,
+				83508EDE1C618ED10086399E /* ReminderViewController.swift */,
+				83508ED41C5EDE370086399E /* SOPackage.swift */,
+				83508E991C5E91920086399E /* AppDelegate.swift */,
 				83508E9D1C5E91920086399E /* Main.storyboard */,
+				83508EDC1C607FD40086399E /* AddNewNotificationViewController.swift */,
+				83508ED21C5ED4850086399E /* SOViewController.swift */,
 				83508EA01C5E91920086399E /* Assets.xcassets */,
 				83508EA21C5E91920086399E /* LaunchScreen.storyboard */,
 				83508EA51C5E91920086399E /* Info.plist */,
+				83508EDA1C607C9B0086399E /* FileDirectory.swift */,
+				83508ED61C6079960086399E /* FileSave.swift */,
+				83508ED81C607A3F0086399E /* FileHelper.swift */,
 			);
 			path = TheBetterBoyfriend;
 			sourceTree = "<group>";
@@ -193,6 +232,12 @@
 				TargetAttributes = {
 					83508E951C5E91920086399E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9QXJF7687X;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					83508EA91C5E91920086399E = {
 						CreatedOnToolsVersion = 7.2;
@@ -256,8 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83508EDB1C607C9B0086399E /* FileDirectory.swift in Sources */,
+				83508ED51C5EDE370086399E /* SOPackage.swift in Sources */,
+				83508EDD1C607FD40086399E /* AddNewNotificationViewController.swift in Sources */,
+				83508ED71C6079960086399E /* FileSave.swift in Sources */,
 				83508E9C1C5E91920086399E /* ViewController.swift in Sources */,
+				83508EDF1C618ED10086399E /* ReminderViewController.swift in Sources */,
+				83508ED31C5ED4850086399E /* SOViewController.swift in Sources */,
 				83508E9A1C5E91920086399E /* AppDelegate.swift in Sources */,
+				83508ED91C607A3F0086399E /* FileHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +449,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TheBetterBoyfriend",
+				);
 				INFOPLIST_FILE = TheBetterBoyfriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Katnic.TheBetterBoyfriend";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -408,10 +468,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TheBetterBoyfriend",
+				);
 				INFOPLIST_FILE = TheBetterBoyfriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Katnic.TheBetterBoyfriend";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +550,7 @@
 				83508EC01C5E91920086399E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83508EC11C5E91920086399E /* Build configuration list for PBXNativeTarget "TheBetterBoyfriendTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +559,7 @@
 				83508EC31C5E91920086399E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83508EC41C5E91920086399E /* Build configuration list for PBXNativeTarget "TheBetterBoyfriendUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +568,7 @@
 				83508EC61C5E91920086399E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
